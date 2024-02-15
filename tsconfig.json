@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es5",                      /* Especifica la versión de JavaScript que se va a emitir. */
+      "module": "commonjs",                 /* Especifica qué sistema de módulos se utilizará (por ejemplo, 'commonjs', 'amd', 'es2020', etc.). */
+      "strict": true,                       /* Habilita todas las opciones de comprobación de tipo estrictas. */
+      "esModuleInterop": true,              /* Permite la importación de módulos de CommonJS en archivos TypeScript. */
+      "forceConsistentCasingInFileNames": true /* Asegura que los nombres de archivo coincidan con mayúsculas y minúsculas en todas partes del código. */
+    },
+    "exclude": [
+      "node_modules"                        /* Excluye la carpeta 'node_modules' del proceso de compilación de TypeScript. */
+    ]
+  }
